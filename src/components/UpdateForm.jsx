@@ -1,6 +1,4 @@
-import React from "react";
-
-const UpdateForm = ({ updateData, changeTask, updateTask, cancelUpdate}) => {
+const UpdateForm = ({ updateData, changeHolder, updateTask, cancelUpdate}) => {
   return (
     <>
       {/* Update Task */}
@@ -8,7 +6,7 @@ const UpdateForm = ({ updateData, changeTask, updateTask, cancelUpdate}) => {
         <div className="col">
           <input
             value={updateData && updateData.title}
-            onChange={(e) => changeTask(e)}
+            onChange={(e) => changeHolder(e)}
             className="form-control form-control-lg"
           />
         </div>

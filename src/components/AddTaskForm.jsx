@@ -1,5 +1,3 @@
-import React from "react";
-
 const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
   return (
     <>
@@ -14,7 +12,7 @@ const AddTaskForm = ({ newTask, setNewTask, addTask }) => {
         </div>
         <div className="col-auto">
           <button onClick={addTask} className="btn btn-lg btn-success">
-            Update
+            Create
           </button>
         </div>
       </div>
